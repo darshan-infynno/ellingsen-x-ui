@@ -4,7 +4,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "prebuild": "rm -rf dist",
+    "prebuild": "rimraf dist",
     "build": "tsup",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -15,8 +15,8 @@
     "ellingsen-x-ui"
   ],
   "author": {
-    "name": "Krunal Shah",
-    "email": "krunal@infynno.com"
+    "name": "Darshan Vaniya",
+    "email": "darshan.infynno@gmail.com"
   },
   "license": "MIT",
   "description": "",
